@@ -832,6 +832,21 @@ body{
   padding-bottom: 30px;
 }
 
+.px-\[75px\]{
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.px-\[100px\]{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.px-\[\]{
+  padding-left: ;
+  padding-right: ;
+}
+
 .pb-\[100px\]{
   padding-bottom: 100px;
 }
@@ -942,6 +957,16 @@ body{
 
 .hover\:border-transparent:hover{
   border-color: transparent;
+}
+
+.hover\:text-primary:hover{
+  --tw-text-opacity: 1;
+  color: rgb(13 92 215 / var(--tw-text-opacity));
+}
+
+.hover\:text-secondary:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 199 54 / var(--tw-text-opacity));
 }
 
 .hover\:ring-2:hover{
