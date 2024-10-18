@@ -635,6 +635,10 @@ body{
   max-width: 1280px;
 }
 
+.max-w-\[1130px\]{
+  max-width: 1130px;
+}
+
 .grid-cols-4{
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -792,6 +796,14 @@ body{
   padding: 1.25rem;
 }
 
+.p-\[7\]{
+  padding: 7;
+}
+
+.p-\[75px\]{
+  padding: 75px;
+}
+
 .px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -845,6 +857,11 @@ body{
 .px-\[\]{
   padding-left: ;
   padding-right: ;
+}
+
+.px-\[7\]{
+  padding-left: 7;
+  padding-right: 7;
 }
 
 .pb-\[100px\]{
